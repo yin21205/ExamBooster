@@ -31,7 +31,9 @@
             }
         %>
         <div>
-            <%@ include file="ExamBooster/PortalController" %>
+            <button onclick="something">Next</button>
+            <button onclick="something">Submit</button>
         </div>
+        
     </body>
 </html>
