@@ -27,7 +27,7 @@
             Question q1 = new Question("This is the question",answers);
             out.print("<p>"+q1.getQuestion()+"</p>");
             for(Answer answer:q1.getAnswers()){
-                out.print("<input type=radio>"+answer.getAnswer()+"</input>");
+                out.print("<input type=radio name='btnGroup'>"+answer.getAnswer()+"</input>");
             }
         %>
         <div>
